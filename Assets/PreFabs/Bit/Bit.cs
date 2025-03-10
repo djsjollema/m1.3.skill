@@ -5,7 +5,7 @@ using UnityEngine;
 public class Bit : MonoBehaviour
 {
     SpriteRenderer spriteRender;
-    bool state = true;
+    public bool state = false;
 
     // Start is called before the first frame update
     void Start()
